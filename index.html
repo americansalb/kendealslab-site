@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kenil Product Research</title>
+  <meta name="description" content="Product research and price-comparison insights for ecommerce products." />
+  <style>
+    :root {
+      --bg1: #f6f2e8;
+      --bg2: #dce7ef;
+      --ink: #16202a;
+      --muted: #4f5e6c;
+      --accent: #0b6d6c;
+      --card: rgba(255, 255, 255, 0.85);
+      --border: rgba(22, 32, 42, 0.16);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Avenir Next", "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: radial-gradient(circle at 10% 10%, var(--bg1), transparent 40%),
+                  radial-gradient(circle at 85% 85%, var(--bg2), transparent 45%),
+                  #f4f7f9;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+    .card {
+      max-width: 760px;
+      width: 100%;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px;
+      backdrop-filter: blur(4px);
+      box-shadow: 0 18px 30px rgba(10, 30, 50, 0.08);
+    }
+    h1 {
+      margin: 0 0 8px;
+      letter-spacing: 0.2px;
+      font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+    }
+    p { margin: 10px 0; line-height: 1.55; color: var(--muted); }
+    .pill {
+      display: inline-block;
+      margin: 8px 0 16px;
+      color: var(--accent);
+      border: 1px solid color-mix(in srgb, var(--accent) 35%, white);
+      border-radius: 999px;
+      padding: 6px 11px;
+      font-size: 0.85rem;
+      background: rgba(11, 109, 108, 0.08);
+    }
+    .links {
+      margin-top: 20px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+      background: var(--accent);
+      border-radius: 10px;
+      padding: 10px 14px;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+    footer {
+      margin-top: 20px;
+      font-size: 0.84rem;
+      color: #556577;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Kenil Product Research</h1>
+    <span class="pill">US Ecommerce Product Research</span>
+    <p>
+      Kenil Product Research provides product research and price-comparison insights for ecommerce products.
+      The project analyzes listing-level cost and pricing data to surface value-oriented product opportunities.
+    </p>
+    <p>
+      Primary focus: U.S. marketplace analysis, fulfillment cost modeling, and structured opportunity scoring.
+    </p>
+    <div class="links">
+      <a href="mailto:contact@example.com">Contact</a>
+    </div>
+    <footer>
+      This page describes the primary promotion channel for product-research content.
+    </footer>
+  </main>
+</body>
+</html>
